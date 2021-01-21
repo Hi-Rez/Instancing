@@ -4,7 +4,7 @@
 
 ## About
 
-An example showing how to use SwiftUI, Satin, Forge and Youi to draw instanced geometry based on the [SARS-COVID-19 Genome Sequence.](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512)
+An example showing how to use SwiftUI, Satin, Forge and Youi to draw instanced geometry based on the [SARS-COVID-19 Genome Sequence.](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512) This example also shows how to export high resolution images using Satin.
 
 ## Building
 
