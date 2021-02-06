@@ -148,10 +148,7 @@ class Renderer: Forge.Renderer, ObservableObject, MaterialDelegate {
     }
     
     override func resize(_ size: (width: Float, height: Float)) {
-        let hw = size.width
-        let hh = size.height
-        camera.update(left: -hw, right: hw, bottom: -hh, top: hh, near: -100.0, far: 100.0)
-        
+        cameraController.resize(size)
         renderer.resize(size)
         instanceMaterial.set("Resolution", [size.width, size.height, size.width/size.height])
     }
